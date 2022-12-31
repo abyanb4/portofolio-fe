@@ -1,27 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Abyan Burhanuddin</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <main>
-      <div class="landing-page">
-        <div class="landing-page-bio">
-          <p class="lp-greet">Hi, my name is</p>
-          <h1 class="lp-name">Abyan Burhanuddin.</h1>
-          <p class="lp-profile-desc">
-            A computer science student who want to be a Software Engineer,
-            focusing in Backend
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Abyan Burhanuddin</title>
+</head>
+
+<body>
+  <main>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">
+        <a href="#"><img src="assets/abyan-logo.png" /></a>
+      </div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+
+        <div class="menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Landing Page -->
+    <div class="landing-page">
+      <div class="landing-page-bio">
+        <p class="lp-greet">Hi, my name is</p>
+        <h1 class="lp-name">Abyan Burhanuddin.</h1>
+        <p class="lp-profile-desc">
+          A Software Engineer, passionate about Backend Engineering
+        </p>
+        <p class="lp-cta">
+          <a>See more<img class="lp-arrow-right" src="assets/arrow-right.png" alt="arrow right" /></a>
+        </p>
+        <a target="_blank" href="mailto:abyanhmd2@gmail.com"><img class="lp-img-social" src="assets/lp-gmail.png"
+            alt="gmail logo" /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/abyanburhanuddin/"><img class="lp-img-social"
+            src="assets/lp-linkedin.png" alt="linkedin logo" /></a>
+        <a target="_blank" href="https://github.com/abyanb7"><img class="lp-img-social" src="assets/lp-github.png"
+            alt="github logo" /></a>
+      </div>
+    </div>
+
+    <!-- Bio, about -->
+    <div class="bio">
+      <h2>About Me</h2>
+      <div class="split">
+        <div>
+          <img class="bio-photo" src="assets/abyan-photo.png" alt="profile-photo" />
+        </div>
+        <div class="bio-about-me">
+          <p class="bio-description">
+            Hello! I am Abyan and I enjoy writing code with a cup of coffee. I
+            started doing code in 2018, on my first year of college at Gadjah
+            Mada University, Computer Science major. <br /><br />
+            In my third year of college, I decided to put my effort more into
+            Software Engineering, espescially Backend. No particular reason, I
+            just enjoyed backend more than frontend :). <br /><br />
+            Today, I am compiling thesis for my bachelor degree while also
+            doing internship at
+            <a href="https://www.tokopedia.com/careers/our-workplace" target="_blank">Tokopedia.</a>
           </p>
-          <p class="lp-cta">See more<img class="lp-arrow-right" src="assets/arrow-right.png" alt="arrow right"/></p>
-          <a target="_blank" href="mailto:abyanhmd2@gmail.com"><img class="lp-img-social" src="assets/lp-gmail.png" alt="gmail logo"></a>
-          <a target="_blank" href="https://www.linkedin.com/in/abyanburhanuddin/"><img class="lp-img-social" src="assets/lp-linkedin.png" alt="linkedin logo"></a>
-          <a target="_blank" href="https://github.com/abyanb7"><img class="lp-img-social" src="assets/lp-github.png" alt="github logo"></a>
+          <p class="bio-cta">
+            <a href="https://drive.google.com/file/d/1Bt8k9DDQrFMbdFj3lWtfkB-vkTmwHQjp/view?usp=share_link"
+              target="_blank">See my resume<img class="bio-arrow-download" src="assets/arrow-download.png"
+                alt="arrow download" /></a>
+          </p>
         </div>
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+
+  <button id="back-to-top" class="back-to-top hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24"
+      stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+    </svg>
+  </button>
+</body>
+
 </html>
+
+<!-- javascript file -->
+<script src="./main.js"></script>
