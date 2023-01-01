@@ -1,0 +1,58 @@
+{
+    "tokopedia": {
+        "company_name_fmt": "@ Tokopedia",
+        "job_title": "Software Engineer Intern",
+        "company_profile_link": "https://www.tokopedia.com/careers/our-workplace",
+        "date_start_end": "July 2022 - Present",
+        "company_description": "Biggest e-commerce/digital marketplace in Indonesia",
+        "description": [
+            "Involved in developing more than 5 product features in feeds team such as wishlist, voucher, campaign notification, and ASGC from creating tech-plan to implement coding",
+            "Dropped more than 50% New Relic metric for the whole tribe; reduced monthly cost by 44%",
+            "Created a script to synchronize data in PostgreSQL and ElasticSearch and running it directly in production machine",
+            "Tech Stack: Golang, GraphQL, gRPC, NSQ, PostgreSQL, ElasticSearch, New Relic, Microservices"
+        ]
+    },
+    "freelance": {
+        "company_name_fmt": "",
+        "job_title": "Software Engineer",
+        "company_profile_link": "",
+        "date_start_end": "November 2021 - May 2022",
+        "company_description": "Hired by a notary office to create information system management (order, income, etc)",
+        "description": [
+            "Developed various REST APIs using Django",
+            "Proposed and implemented logging in the codebase to ease debugging",
+            "Created API Documentation using Apiary",
+            "Tech Stack: Python, Django, PostgreSQL, Docker, Git"
+        ]
+    },
+    "jakpat": {
+        "company_name_fmt": "@ Jakpat",
+        "job_title": "Backend Engineer Intern",
+        "company_profile_link": "https://jakpat.net/",
+        "date_start_end": "November 2021 - February 2022",
+        "company_description": "A mobile survey platform with over 1 million Indonesian respondents",
+        "description": [
+            "Worked on Flashback and Account Delete feature with TDD using Laravel",
+            "Written technical documentation and flowchart for both feature",
+            "Tech Stack PHP, Laravel, PostgreSQL, Docker, Git"
+        ]
+    },
+    "Sparveon": {
+        "company_name_fmt": "@ Sparveon",
+        "job_title": "Backend Engineer Intern",
+        "company_profile_link": "https://www.linkedin.com/company/sparveon/",
+        "date_start_end": "June 2021 - September 2021",
+        "company_description": "Product: Machine learning to emerge the signature of energy and mineral resources",
+        "description": [
+            "Develop authentication feature using Django with smtp email server",
+            "Deployed backend service on AWS with ec2",
+            "Tech Stack: Python, Django, PostgreSQL, Git, EC2 AWS"
+        ]
+    }
+}
+
+
+
+ 
+
+

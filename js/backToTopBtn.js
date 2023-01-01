@@ -1,9 +1,6 @@
-console.log("test console log")
+// back to top button
 const showOnPx = 20;
 const backToTopButton = document.getElementById("back-to-top");
-// const pageProgressBar = document.querySelector(".progress-bar");
-
-console.log(backToTopButton)
 
 const scrollContainer = () => {
   return document.documentElement || document.body;
@@ -23,8 +20,6 @@ document.addEventListener("scroll", () => {
     (scrollContainer().scrollTop /
       (scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
     100;
-
-  // pageProgressBar.style.width = `${scrolledPercentage}%`;
 
   if (scrollContainer().scrollTop > showOnPx) {
     backToTopButton.classList.remove("hidden");

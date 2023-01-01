@@ -1,95 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/abyan-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Abyan Burhanuddin</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Abyan Burhanuddin</title>
-</head>
-
-<body>
-  <main>
-    <nav class="navbar">
-      <!-- LOGO -->
-      <div class="logo">
-        <a href="#"><img src="assets/abyan-logo.png" /></a>
-      </div>
-      <!-- NAVIGATION MENU -->
-      <ul class="nav-links">
-        <!-- USING CHECKBOX HACK -->
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
-        <!-- NAVIGATION MENUS -->
-
-        <div class="menu">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Contact</a></li>
+  <body>
+    <main>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+          <a href="#"><img src="assets/abyan-logo.png" /></a>
         </div>
-      </ul>
-    </nav>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
-    <!-- Landing Page -->
-    <div class="landing-page">
-      <div class="landing-page-bio">
-        <p class="lp-greet">Hi, my name is</p>
-        <h1 class="lp-name">Abyan Burhanuddin.</h1>
-        <p class="lp-profile-desc">
-          A Software Engineer, passionate about Backend Engineering
-        </p>
-        <p class="lp-cta">
-          <a>See more<img class="lp-arrow-right" src="assets/arrow-right.png" alt="arrow right" /></a>
-        </p>
-        <a target="_blank" href="mailto:abyanhmd2@gmail.com"><img class="lp-img-social" src="assets/lp-gmail.png"
-            alt="gmail logo" /></a>
-        <a target="_blank" href="https://www.linkedin.com/in/abyanburhanuddin/"><img class="lp-img-social"
-            src="assets/lp-linkedin.png" alt="linkedin logo" /></a>
-        <a target="_blank" href="https://github.com/abyanb7"><img class="lp-img-social" src="assets/lp-github.png"
-            alt="github logo" /></a>
-      </div>
-    </div>
+          <!-- NAVIGATION MENUS -->
 
-    <!-- Bio, about -->
-    <div class="bio">
-      <h2>About Me</h2>
-      <div class="split">
-        <div>
-          <img class="bio-photo" src="assets/abyan-photo.png" alt="profile-photo" />
-        </div>
-        <div class="bio-about-me">
-          <p class="bio-description">
-            Hello! I am Abyan and I enjoy writing code with a cup of coffee. I
-            started doing code in 2018, on my first year of college at Gadjah
-            Mada University, Computer Science major. <br /><br />
-            In my third year of college, I decided to put my effort more into
-            Software Engineering, espescially Backend. No particular reason, I
-            just enjoyed backend more than frontend :). <br /><br />
-            Today, I am compiling thesis for my bachelor degree while also
-            doing internship at
-            <a href="https://www.tokopedia.com/careers/our-workplace" target="_blank">Tokopedia.</a>
+          <div class="menu">
+            <li>
+              <a onclick="document.getElementById('bio').scrollIntoView()"
+                ><b class="text-yellow">01.</b>About</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="document.getElementById('experience').scrollIntoView()"
+                ><b class="text-yellow">02.</b>Experience</a
+              >
+            </li>
+            <li>
+              <a
+                onclick="document.getElementById('contact-me').scrollIntoView()"
+                ><b class="text-yellow">03.</b>Contact</a
+              >
+            </li>
+          </div>
+        </ul>
+      </nav>
+
+      <!-- Landing Page -->
+      <div class="landing-page">
+        <div class="landing-page-bio">
+          <p class="lp-greet">Hi, my name is</p>
+          <h1 class="lp-name">Abyan Burhanuddin.</h1>
+          <p class="lp-profile-desc">
+            A Software Engineer, passionate about Backend Engineering
           </p>
-          <p class="bio-cta">
-            <a href="https://drive.google.com/file/d/1Bt8k9DDQrFMbdFj3lWtfkB-vkTmwHQjp/view?usp=share_link"
-              target="_blank">See my resume<img class="bio-arrow-download" src="assets/arrow-download.png"
-                alt="arrow download" /></a>
+          <p class="lp-cta">
+            <a onclick="document.getElementById('bio').scrollIntoView()"
+              >See more<img
+                class="lp-arrow-right"
+                src="assets/arrow-right.png"
+                alt="arrow right"
+            /></a>
           </p>
+          <a target="_blank" href="mailto:abyanhmd2@gmail.com"
+            ><img
+              class="lp-img-social"
+              src="assets/lp-gmail.png"
+              alt="gmail logo"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/abyanburhanuddin/"
+            ><img
+              class="lp-img-social"
+              src="assets/lp-linkedin.png"
+              alt="linkedin logo"
+          /></a>
+          <a target="_blank" href="https://github.com/abyanb7"
+            ><img
+              class="lp-img-social"
+              src="assets/lp-github.png"
+              alt="github logo"
+          /></a>
         </div>
       </div>
-    </div>
-  </main>
 
-  <button id="back-to-top" class="back-to-top hidden">
-    <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24"
-      stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
-    </svg>
-  </button>
-</body>
+      <!-- Bio, about -->
+      <div id="bio" class="bio">
+        <h2>About Me</h2>
+        <div class="split">
+          <div>
+            <img
+              class="bio-photo"
+              src="assets/abyan-photo.png"
+              alt="profile-photo"
+            />
+          </div>
+          <div class="bio-about-me">
+            <p class="bio-description">
+              Hello! I am Abyan and I enjoy writing code with a cup of coffee. I
+              started doing code in 2018, on my first year of college at Gadjah
+              Mada University, Computer Science major. <br /><br />
+              In my third year of college, I decided to put my effort more into
+              Software Engineering, espescially Backend. No particular reason, I
+              just enjoyed backend more than frontend :) <br /><br />
+              Today, I am compiling thesis for my bachelor degree while also
+              doing internship at
+              <a
+                href="https://www.tokopedia.com/careers/our-workplace"
+                target="_blank"
+                >Tokopedia.</a
+              >
+            </p>
+            <p class="bio-cta">
+              <a
+                href="https://drive.google.com/file/d/1Bt8k9DDQrFMbdFj3lWtfkB-vkTmwHQjp/view?usp=share_link"
+                target="_blank"
+                >See my resume<img
+                  class="bio-arrow-download"
+                  src="assets/arrow-download.png"
+                  alt="arrow download"
+              /></a>
+            </p>
+          </div>
+        </div>
+      </div>
 
+      <div id="experience" class="experience">
+        <h2>Where I've Worked</h2>
+        <div class="split">
+          <div class="split-25">
+            <li id="experience-tokopedia" class="border-yellow">Tokopedia</li>
+            <li id="experience-freelance">Freelance</li>
+            <li id="experience-jakpat">Jakpat</li>
+            <li id="experience-sparveon">Sparveon</li>
+          </div>
+          <div id="split-75" class="split-75">
+            <h3>
+              Software Engineer Intern
+              <a
+                href="https://www.tokopedia.com/careers/our-workplace"
+                class="text-yellow"
+                target="_blank"
+                >@ Tokopedia</a
+              >
+            </h3>
+            <p class="experience-date">July 2022 - Present</p>
+            <p class="experience-company-desc">
+              Biggest e-commerce/digital marketplace in Indonesia
+            </p>
+            <div class="experience-container">
+              <div class="bullet-arrow">
+                <img
+                  src="assets/arrow-bullet-point.png"
+                  alt="bullet point arrow"
+                />
+              </div>
+              <div class="experience-detail">
+                <p>
+                  Involved in developing more than 5 product features in feeds
+                  team such as wishlist, voucher, campaign notification, and
+                  ASGC from creating tech-plan to implement coding
+                </p>
+              </div>
+            </div>
+            <div class="experience-container">
+              <div class="bullet-arrow">
+                <img
+                  src="assets/arrow-bullet-point.png"
+                  alt="bullet point arrow"
+                />
+              </div>
+              <div class="experience-detail">
+                <p>
+                  Dropped more than 50% New Relic metric for the whole tribe;
+                  reduced monthly cost by 44%
+                </p>
+              </div>
+            </div>
+            <div class="experience-container">
+              <div class="bullet-arrow">
+                <img
+                  src="assets/arrow-bullet-point.png"
+                  alt="bullet point arrow"
+                />
+              </div>
+              <div class="experience-detail">
+                <p>
+                  Created a script to synchronize data in PostgreSQL and
+                  ElasticSearch and running it directly in production machine
+                </p>
+              </div>
+            </div>
+            <div class="experience-container">
+              <div class="bullet-arrow">
+                <img
+                  src="assets/arrow-bullet-point.png"
+                  alt="bullet point arrow"
+                />
+              </div>
+              <div class="experience-detail">
+                <p>
+                  Tech Stack: Golang, GraphQL, gRPC, NSQ, PostgreSQL,
+                  ElasticSearch, New Relic, Microservices
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tech-stack" class="tech-stack">
+        <h2>Tech I've been working with</h2>
+        <div class="tech-logo-container">
+          <div class="split tech-logo">
+            <div class="tech-img">
+              <img src="assets/python.png" />
+            </div>
+            <div class="tech-img">
+              <img src="assets/golang.png" />
+            </div>
+            <div class="tech-img">
+              <img src="assets/js.png" />
+            </div>
+            <div class="tech-img">
+              <img class="img-php"" src="assets/php.png">
+            </div>
+            <div class="tech-img">
+              <img src="assets/css.png" />
+            </div>
+            <div class="tech-img">
+              <img src="assets/html.png" />
+            </div>
+          </div>
+          <div class="split tech-logo">
+            <div class="tech-img">
+              <img class="img-docker" src="assets/docker.png" />
+            </div>
+            <div class="tech-img">
+              <img class="img-git" src="assets/git.png" />
+            </div>
+            <div class="tech-img">
+              <img class="img-elastic" src="assets/elastic-logo.svg" />
+            </div>
+            <div class="tech-img">
+              <img class="img-postgre" src="assets/postgresql.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact-me" class="contact-me">
+        <p class="what-next">What's Next?</p>
+        <h2>Get In Touch</h2>
+        <div class="contact-me-desc-container">
+          <p class="contact-me-desc">
+            I am always open for any interesting opportunity. Whether you have a
+            question or just want to say hi, go ahead, send me a message. I'll
+            try my best to get back to you!
+          </p>
+        </div>
+        <div class="contact-btn">
+          <button
+            class="btn-hello"
+            type="submit"
+            onclick="window.location.href='mailto:abyanhmd2@gmail.com'"
+          >
+            Say Hello
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img class="footer-logo" src="assets/abyan-logo.png" alt="abyan logo" />
+      <div class="footer-list">
+        <li><a target="_blank" href="mailto:abyanhmd2@gmail.com">Email</a></li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/abyanburhanuddin"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <a target="_blank" href="https://www.github.com/abyanb7">Github</a>
+        </li>
+      </div>
+      <div class="footer-container">
+        <p>
+          <a>Design & built by Abyan Burhanuddin</a
+          ><img src="assets/love-icon.png" alt="love icon" />
+        </p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top hidden">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="back-to-top-icon"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M7 11l5-5m0 0l5 5m-5-5v12"
+        />
+      </svg>
+    </button>
+
+    <!-- javascript file -->
+    <script src="./js/backToTopBtn.js"></script>
+    <script src="./js/experience.js"></script>
+  </body>
 </html>
-
-<!-- javascript file -->
-<script src="./main.js"></script>
