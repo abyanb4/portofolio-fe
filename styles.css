@@ -560,6 +560,21 @@ footer {
   margin-left: 3px;
 }
 
+.footer-github {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.footer-github-icon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--clr-accent-yellow);
+}
+
 
 /* Back to top button */
 
