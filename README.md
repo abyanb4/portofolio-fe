@@ -6,7 +6,7 @@ Frontend for my perfonal portofolio -->
 </div>
 
 <h1 align="center">Personal portofolio website</h1>
-<p align="center">🔗 <a href="https://abyanba.xyz">abyanba.xyz</a> 🔗</p>
+<p align="center">🔗 <a href="https://abyanba.xyz" target="_blank">abyanba.xyz</a> 🔗</p>
 
 <p align="center">Built from scratch with html, css, js and hosted on netlify</p>
 <div align="center">
