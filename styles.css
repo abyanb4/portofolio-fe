@@ -65,6 +65,10 @@ li {
   height: auto;
 }
 
+.logo a {
+  cursor: pointer;
+}
+
 /* NAVBAR MENU */
 
 .menu {
