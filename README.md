@@ -2,7 +2,7 @@
 Frontend for my perfonal portofolio -->
 
 <div align="center">
-  <img alt="Logo" src="./assets/abyan-logo-2.png" alt="abyan-logo" width="100" />
+  <img src="./assets/abyan-logo-bg-blue.png" alt="abyan-logo" width="100" />
 </div>
 
 <h1 align="center">Personal portofolio website</h1>
