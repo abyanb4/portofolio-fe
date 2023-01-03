@@ -23,6 +23,7 @@ const experienceData = {
       "Hired by a notary office to create information system management (order, income, etc)",
     work_done: [
       "Developed various REST APIs using Django",
+      "Implemented TDD, maintain test coverage on 96%",
       "Proposed and implemented logging in the codebase to ease debugging",
       "Created API Documentation using Apiary",
       "Tech Stack: Python, Django, PostgreSQL, Docker, Git",
