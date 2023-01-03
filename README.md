@@ -11,7 +11,7 @@ Frontend for my perfonal portofolio -->
 <p align="center">Built from scratch with html, css, js and hosted on netlify</p>
 <div align="center">
 <img src="./assets/html.png" alt="html logo" width="60"/>
-<img src="./assets/css.png" alt="css logo" width="60"/>
+<img src="./assets/css-logo-white.svg" alt="css logo" width="60"/>
 <img src="./assets/js.png" alt="javascript logo" width="80"/>
 </div>
 <br>
