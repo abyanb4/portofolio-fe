@@ -35,7 +35,7 @@ Frontend for my perfonal portofolio -->
 
 ## Credits
 
-- A great personal website of [brittanychiang.com](https://brittanychiang.com/)
+- A beautiful personal website of [Brittany Chiang](https://brittanychiang.com/)
 
 ## Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
